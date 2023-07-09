@@ -56,10 +56,9 @@
                 <a href="#" class="btn btn-lg btn-primary">Know More</a>
                 <ul class="social-links">
                   <li class="label">Join me here</li>
-                  <li><a href="#"><img src="{% static 'assets/behance.png' %}"></a></li>
-                  <li><a href="#"><img src="assets/dribbble.png"></a></li>
-                  <li><a href="#"><img src="assets/twitter.png"></a></li>
-                  <li><a href="#"><img src="assets/github.png"></a></li>
+                  <li><a href="https://www.linkedin.com/in/akarsh-kumar-797ba3171/"><img src="{% static 'assets/download.jpeg' %}"></a></li>
+                  <li><a href="https://twitter.com/KumarMadhwa"><img src="{% static 'assets/twitter.png' %}"></a></li>
+                  <li><a href="https://github.com/akarshkumarmadhwa"><img src="{% static 'assets/github.png' %}"></a></li>
                 </ul>
               </div>
             </div>
@@ -77,31 +76,31 @@
               <div class="swiper-container client-swiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide client-box">
-                    <img src="assets/logo-1.png" class="client-logo">
+                    <img src="{% static 'assets/logo-1.png' %}" class="client-logo">
                     <h3 class="text-left title">Visual identity for upsidedown</h3>
                     <p class="text-left tag">Branding, UI, Website</p>
                     <p class="text-left"><a href="#">Know More &#8594;</a></p>
                   </div>
                   <div class="swiper-slide client-box">
-                    <img src="assets/logo-2.png" class="client-logo">
+                    <img src="{% static 'assets/logo-2.png' %}" class="client-logo">
                     <h3 class="text-left title">User Experience design for the AI</h3>
                     <p class="text-left tag">Branding, UI, Website</p>
                     <p class="text-left"><a href="#">Know More &#8594;</a></p>
                   </div>
                   <div class="swiper-slide client-box">
-                    <img src="assets/logo-3.png" class="client-logo">
+                    <img src="{% static 'assets/logo-3.png' %}" class="client-logo">
                     <h3 class="text-left title">Rebranding of the best motion studio</h3>
                     <p class="text-left tag">Branding, UI, Website</p>
                     <p class="text-left"><a href="#">Know More &#8594;</a></p>
                   </div>
                   <div class="swiper-slide client-box">
-                    <img src="assets/logo-1.png" class="client-logo">
+                    <img src="{% static 'assets/logo-1.png' %}" class="client-logo">
                     <h3 class="text-left title">Visual identity for upsidedown</h3>
                     <p class="text-left tag">Branding, UI, Website</p>
                     <p class="text-left"><a href="#">Know More &#8594;</a></p>
                   </div>
                   <div class="swiper-slide client-box">
-                    <img src="assets/logo-2.png" class="client-logo">
+                    <img src="{% static 'assets/logo-2.png' %}" class="client-logo">
                     <h3 class="text-left title">Visual identity for upsidedown</h3>
                     <p class="text-left tag">Branding, UI, Website</p>
                     <p class="text-left"><a href="#">Know More &#8594;</a></p>
@@ -231,7 +230,7 @@
           <div class="row">
             <div class="col-md-12 text-center">
               <h1>Let’s talk about your product</h1>
-              <a href="#" class="btn btn-lg btn-primary">Get in touch now</a>
+              <a href="https://www.linkedin.com/in/akarsh-kumar-797ba3171/" class="btn btn-lg btn-primary">Get in touch now</a>
             </div>
           </div>
         </div>
@@ -242,26 +241,25 @@
         <div class="container-fluid">
           <div class="row footer">
             <div class="col-md-12 text-center">
-              <h1>Maria<br><span>Ferrero</span></h1>
+              <h1>Akarsh<br><span>Kumar</span></h1>
               <ul class="social-links">
-                <li><a href="#"><img src="assets/behance.png"></a></li>
-                <li><a href="#"><img src="assets/dribbble.png"></a></li>
-                <li><a href="#"><img src="assets/twitter.png"></a></li>
-                <li><a href="#"><img src="assets/github.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/akarsh-kumar-797ba3171/"><img src="{% static 'assets/download.jpeg' %}"></a></li>
+                <li><a href="https://twitter.com/KumarMadhwa"><img src="{% static 'assets/twitter.png' %}"></a></li>
+                <li><a href="https://github.com/akarshkumarmadhwa"><img src="{% static 'assets/github.png' %}"></a></li>
               </ul>
             </div>
           </div>
           <div class="row sub-footer">
             <div class="col-md-12 text-center">
-              <p>Designed by <a href="#" target="_blank">@realvjy</a> | Download <a href="http://designerdada.com/free-bootstrap-one-page-portfolio-template/">here</a></p>
+              <p>Designed by <a href="#" target="_blank">@akarsh</a></p>
             </div>
           </div>
         </div>
       </footer>
 
       <!-- Some Javascript -->
-      <script src="js/jquery-2.1.1.js"></script>
-      <script src="js/swiper.jquery.min.js"></script>
+      <script src="{% static 'js/jquery-2.1.1.js' %}"></script>
+      <script src="{% static 'js/swiper.jquery.min.js' %}"></script>
       <!-- Initialize Client Swiper -->
       <script>
       var swiper1 = new Swiper('.client-swiper', {
@@ -318,7 +316,7 @@
       });
       </script>
       <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-      <script src="js/jquery.counterup.min.js"></script>
+      <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
       <script>
       // Counterup
       $('.counter').counterUp({
