@@ -12,5 +12,6 @@ urlpatterns = [
     name="login"),
     path("register/",resiterPage,
     name="register"),
-    path("portfolio/",portfolio,name="portfolio")
+    path("portfolio/",portfolio,name="portfolio"),
+    path("logout/",LogoutView.as_view(),name="logout")
 ]
